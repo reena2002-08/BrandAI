@@ -528,8 +528,8 @@ setEvaluation(data.evaluation);
   DeepSeek
 </option>
 
-<option value="openai/gpt-oss-20b:free">
-  GPT OSS
+<option value="baidu/ernie-5.5-flash-preview:free">
+  ERNIE 5.5
 </option>
   </select>
 </div>
@@ -722,7 +722,7 @@ setEvaluation(data.evaluation);
 
             <th className="p-4">Metric</th>
             <th className="p-4">DeepSeek</th>
-            <th className="p-4">GPT OSS</th>
+            <th className="p-4">ERNIE 5.5</th>
 
           </tr>
 
@@ -733,31 +733,31 @@ setEvaluation(data.evaluation);
           <tr>
             <td className="p-4">Creativity</td>
             <td>{evaluation?.DeepSeek?.creativity}</td>
-            <td>{evaluation?.GPTOSS?.creativity}</td>
+            <td>{evaluation?.ERNIE?.creativity}</td>
           </tr>
 
           <tr>
             <td className="p-4">Relevance</td>
             <td>{evaluation?.DeepSeek?.relevance}</td>
-            <td>{evaluation?.GPTOSS?.relevance}</td>
+            <td>{evaluation?.ERNIE?.relevance}</td>
           </tr>
 
           <tr>
             <td className="p-4">Marketing</td>
             <td>{evaluation?.DeepSeek?.marketing}</td>
-            <td>{evaluation?.GPTOSS?.marketing}</td>
+            <td>{evaluation?.ERNIE?.marketing}</td>
           </tr>
 
           <tr>
             <td className="p-4">Hashtags</td>
             <td>{evaluation?.DeepSeek?.hashtags}</td>
-            <td>{evaluation?.GPTOSS?.hashtags}</td>
+            <td>{evaluation?.ERNIE?.hashtags}</td>
           </tr>
 
           <tr className="font-bold text-purple-400">
             <td className="p-4">Overall</td>
             <td>{evaluation?.DeepSeek?.overall}</td>
-            <td>{evaluation?.GPTOSS?.overall}</td>
+            <td>{evaluation?.ERNIE?.overall}</td>
           </tr>
 
         </tbody>
